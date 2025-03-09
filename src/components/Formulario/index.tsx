@@ -131,7 +131,7 @@ export default function Formulario({ aoCadastrar, aoCadastrarTime, times }: Form
           label="nome do time"
           placeholder="Digite o nome do novo time"
           valor={nomeTime}
-          aoAlterar={valor => setNomeTime(valor)}
+          aoAlterar={valor => setNomeTime(valor.trim())}
           obrigatorio={true}
         />
         <CampoTexto
