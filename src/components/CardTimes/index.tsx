@@ -70,7 +70,7 @@ const InfoContainer = styled.div`
       position: absolute;
       top: 40%;
       left: 60%;
-      color: rosybrown;
+      color: pink;
       background: white;
       border-radius: 30% 30% 50% 50%;
       user-select: none;
